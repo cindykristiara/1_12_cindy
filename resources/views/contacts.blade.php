@@ -6,9 +6,9 @@
 </div>
 <form>
   <div class="form-floating mb-3">
-    <input type="text" class="form-control" id="inputname" placeholder="Nama">
-    <label for="inputname">Nama</label>
-  </div>php
+    <input type="text" class="form-control" id="inputnama" placeholder="Nama">
+    <label for="inputnama">Nama</label>
+  </div>
   <div class="form-floating mb-3">
     <input type="email" class="form-control" id="inputemail" placeholder="Email">
     <label for="inputemail" class="form-label">Email</label>
