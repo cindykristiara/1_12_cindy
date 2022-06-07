@@ -32,9 +32,9 @@
                                             @foreach ($contacts as $index => $contact)
                                             <tr>
                                                 <td>{{ $index + 1}}</td>
-                                                <td> {{ $contact->nama}}</td>
-                                                <td> {{ $contact->email}}</td>
-                                                <td> {{ $contact->pesan}}</td>
+                                                <td> {{ $contact->Nama}}</td>
+                                                <td> {{ $contact->Email}}</td>
+                                                <td> {{ $contact->Pesan}}</td>
                                                 <td>
                                                     <a href="{{ route('contacts.edit', $contact->id)}}"><i class="fas fa-edit"></i></a>
                                                     |
